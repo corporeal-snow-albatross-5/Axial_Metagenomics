@@ -1,0 +1,2018 @@
+.
+├── HS_April2014
+│   ├── Axial_2013_DNA_POOL4
+│   │   ├── Sample_AAGGGA_notused
+│   │   │   ├── AAGGGA_AAGGGA_L007_R1_001.fastq.gz
+│   │   │   ├── AAGGGA_AAGGGA_L007_R2_001.fastq.gz
+│   │   │   └── SampleSheet.csv
+│   │   └── Sample_TTCAGC_notused
+│   │       ├── SampleSheet.csv
+│   │       ├── TTCAGC_TTCAGC_L007_R1_001.fastq.gz
+│   │       └── TTCAGC_TTCAGC_L007_R2_001.fastq.gz
+│   ├── FS903_Marker113_SIP
+│   │   ├── FS903_30_12H
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R1_001.fastq.gz
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R1_002.fastq.gz
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R1_003.fastq.gz
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R1_004.fastq.gz
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R2_001.fastq.gz
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R2_002.fastq.gz
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R2_003.fastq.gz
+│   │   │   ├── FS903_30_12H_AAGACG_L001_R2_004.fastq.gz
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_30_12L
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R1_001.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R1_002.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R1_003.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R1_004.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R1_005.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R1_006.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R1_007.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R2_001.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R2_002.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R2_003.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R2_004.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R2_005.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R2_006.fastq.gz
+│   │   │   ├── FS903_30_12L_GGATGT_L001_R2_007.fastq.gz
+│   │   │   ├── merge-config-FS903_30_12L.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_30_13H
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_001.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_002.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_003.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_004.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_005.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_006.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_007.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_008.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_009.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_010.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_011.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R1_012.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_001.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_002.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_003.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_004.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_005.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_006.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_007.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_008.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_009.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_010.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_011.fastq.gz
+│   │   │   ├── FS903_30_13H_CCTCGG_L001_R2_012.fastq.gz
+│   │   │   ├── merge-config-FS903_30_13H.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_30_13L
+│   │   │   ├── FS903_30_13L_TTCGCT_L001_R1_001.fastq.gz
+│   │   │   ├── FS903_30_13L_TTCGCT_L001_R1_002.fastq.gz
+│   │   │   ├── FS903_30_13L_TTCGCT_L001_R2_001.fastq.gz
+│   │   │   ├── FS903_30_13L_TTCGCT_L001_R2_002.fastq.gz
+│   │   │   ├── merge-config-FS903_30_13L.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_55_12H
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R1_004.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R1_005.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R1_006.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R2_003.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R2_004.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R2_005.fastq.gz
+│   │   │   ├── FS903_55_12H_AAGGGA_L002_R2_006.fastq.gz
+│   │   │   ├── merge-config-FS903_55_12H.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_55_12L
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_004.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_005.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_006.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_007.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_008.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R1_009.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_003.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_004.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_005.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_006.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_007.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_008.fastq.gz
+│   │   │   ├── FS903_55_12L_GGACCC_L002_R2_009.fastq.gz
+│   │   │   ├── merge-config-FS903_55_12L.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_55_13H
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R1_004.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R1_005.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R1_006.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R1_007.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R2_003.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R2_004.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R2_005.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R2_006.fastq.gz
+│   │   │   ├── FS903_55_13H_CCTTCA_L002_R2_007.fastq.gz
+│   │   │   ├── merge-config-FS903_55_13H.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_55_13L
+│   │   │   ├── FS903_55_13L_TTCAGC_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_55_13L_TTCAGC_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_55_13L_TTCAGC_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_55_13L_TTCAGC_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_55_13L_TTCAGC_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_55_13L_TTCAGC_L002_R2_003.fastq.gz
+│   │   │   ├── merge-config-FS903_55_13L.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_80_12H
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_004.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_005.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_006.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_007.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_008.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R1_009.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_003.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_004.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_005.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_006.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_007.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_008.fastq.gz
+│   │   │   ├── FS903_80_12H_AAGACG_L002_R2_009.fastq.gz
+│   │   │   ├── merge-config-FS903_80_12H.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_80_12L
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_004.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_005.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_006.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_007.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_008.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R1_009.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_003.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_004.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_005.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_006.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_007.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_008.fastq.gz
+│   │   │   ├── FS903_80_12L_GGATGT_L002_R2_009.fastq.gz
+│   │   │   ├── merge-config-FS903_80_12L.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_80_13H
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_004.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_005.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_006.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_007.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_008.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R1_009.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_003.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_004.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_005.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_006.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_007.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_008.fastq.gz
+│   │   │   ├── FS903_80_13H_CCTCGG_L002_R2_009.fastq.gz
+│   │   │   ├── merge-config-FS903_80_13H.ini
+│   │   │   └── SampleSheet.csv
+│   │   └── FS903_80_13L
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_001.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_002.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_003.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_004.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_005.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_006.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_007.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_008.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R1_009.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_001.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_002.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_003.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_004.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_005.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_006.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_007.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_008.fastq.gz
+│   │       ├── FS903_80_13L_TTCGCT_L002_R2_009.fastq.gz
+│   │       ├── merge-config-FS903_80_13L.ini
+│   │       └── SampleSheet.csv
+│   └── LVWS1_Marker113_SIP
+│       ├── LVWS1_TP1_12H
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_005.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_006.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_007.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_008.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_009.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_010.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_011.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_012.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_013.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R1_014.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_005.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_006.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_007.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_008.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_009.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_010.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_011.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_012.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_013.fastq.gz
+│       │   ├── LVWS1_80_TP1_12H_AAGGGA_L001_R2_014.fastq.gz
+│       │   ├── merge-config-LVWS1_TP1_12H.ini
+│       │   └── SampleSheet.csv
+│       ├── LVWS1_TP1_12L
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R1_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R1_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R2_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L003_R2_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L004_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L004_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L004_R1_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L004_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L004_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_12L_CCTCGG_L004_R2_003.fastq.gz
+│       │   ├── merge-config-LVWS1_TP1_12L.ini
+│       │   └── SampleSheet.csv
+│       ├── LVWS1_TP1_13H
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R1_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R1_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R2_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L003_R2_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R1_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R1_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R2_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_13H_AAGACG_L004_R2_004.fastq.gz
+│       │   ├── merge-config-LVWS1_TP1_13H.ini
+│       │   └── SampleSheet.csv
+│       ├── LVWS1_TP1_13L
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R1_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R1_004.fastq.gz
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R2_003.fastq.gz
+│       │   ├── LVWS1_80_TP1_13L_CCTTCA_L001_R2_004.fastq.gz
+│       │   ├── merge-config-LVWS1_TP1_13L.ini
+│       │   └── SampleSheet.csv
+│       ├── LVWS1_TP2_12H
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R1_003.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R1_004.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R1_005.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R1_006.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R2_003.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R2_004.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R2_005.fastq.gz
+│       │   ├── LVWS1_80_TP2_12H_GGACCC_L001_R2_006.fastq.gz
+│       │   ├── merge-config-LVWS1_TP2_12H.ini
+│       │   └── SampleSheet.csv
+│       ├── LVWS1_TP2_12L
+│       │   ├── LVWS1_80_TP2_12L_TTCGCT_L003_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_12L_TTCGCT_L003_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_12L_TTCGCT_L004_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_12L_TTCGCT_L004_R2_001.fastq.gz
+│       │   ├── merge-config-LVWS1_TP2_12L.ini
+│       │   └── SampleSheet.csv
+│       ├── LVWS1_TP2_13H
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L003_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L003_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L003_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L003_R2_002.fastq.gz
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L004_R1_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L004_R1_002.fastq.gz
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L004_R2_001.fastq.gz
+│       │   ├── LVWS1_80_TP2_13H_GGATGT_L004_R2_002.fastq.gz
+│       │   ├── merge-config-LVWS1_TP2_13H.ini
+│       │   └── SampleSheet.csv
+│       └── LVWS1_TP2_13L
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R1_001.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R1_002.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R1_003.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R1_004.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R1_005.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R1_006.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R2_001.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R2_002.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R2_003.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R2_004.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R2_005.fastq.gz
+│           ├── LVWS1_80_TP2_13L_TTCAGC_L001_R2_006.fastq.gz
+│           ├── merge-config-LVWS1_TP2_13L.ini
+│           └── SampleSheet.csv
+├── HS_Aug2013
+│   ├── FS857_30_TP1
+│   │   ├── FS857_SIP_30_13C_TP1_AAGGGA_L006_R1_001.fastq.gz
+│   │   ├── FS857_SIP_30_13C_TP1_AAGGGA_L006_R1_002.fastq.gz
+│   │   ├── FS857_SIP_30_13C_TP1_AAGGGA_L006_R2_001.fastq.gz
+│   │   └── FS857_SIP_30_13C_TP1_AAGGGA_L006_R2_002.fastq.gz
+│   └── FS857_30_TP2
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R1_001.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R1_002.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R1_003.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R1_004.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R1_005.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R1_006.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R2_001.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R2_002.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R2_003.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R2_004.fastq.gz
+│       ├── FS857_SIP_30_13C_TP2_CCTTCA_L006_R2_005.fastq.gz
+│       └── FS857_SIP_30_13C_TP2_CCTTCA_L006_R2_006.fastq.gz
+├── HS_AugSept2014
+│   ├── Project_HUBER_CF_FS904_LVWS2
+│   │   ├── Sample_FS904_12H_80
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_001.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_002.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_003.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_004.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_005.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_006.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_007.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R1_008.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_001.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_002.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_003.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_004.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_005.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_006.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_007.fastq.gz
+│   │   │   ├── FS904_12H_80_AAGACG_L007_R2_008.fastq.gz
+│   │   │   ├── merge-config-FS904_12H_80.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── Sample_FS904_12L_80
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R1_001.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R1_002.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R1_003.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R1_004.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R1_005.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R2_001.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R2_002.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R2_003.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R2_004.fastq.gz
+│   │   │   ├── FS904_12L_80_GGATGT_L007_R2_005.fastq.gz
+│   │   │   ├── merge-config-FS904_12L_80.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── Sample_FS904_13H_80
+│   │   │   ├── FS904_13H_80_CCGCGG_L007_R1_001.fastq.gz
+│   │   │   ├── FS904_13H_80_CCGCGG_L007_R2_001.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R1_001.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R1_002.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R1_003.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R1_004.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R2_001.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R2_002.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R2_003.fastq.gz
+│   │   │   ├── FS904_13H_80_CCTCGG_L007_R2_004.fastq.gz
+│   │   │   ├── merge-config-FS904_13H_80.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── Sample_FS904_13L_80
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R1_001.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R1_002.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R1_003.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R1_004.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R1_005.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R1_006.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R2_001.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R2_002.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R2_003.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R2_004.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R2_005.fastq.gz
+│   │   │   ├── FS904_13L_80_TTCGCT_L007_R2_006.fastq.gz
+│   │   │   ├── merge-config-FS904_13L_80.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── Sample_LVWS2_TP1_12H
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_001.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_002.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_003.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_004.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_005.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_006.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_007.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_008.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R1_009.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_001.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_002.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_003.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_004.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_005.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_006.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_007.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_008.fastq.gz
+│   │   │   ├── LVWS_TP1_12H_AAGGGA_L007_R2_009.fastq.gz
+│   │   │   ├── merge-config-LVWS2_TP1_12H.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── Sample_LVWS2_TP1_12L
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R1_001.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R1_002.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R1_003.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R1_004.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R1_005.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R1_006.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R2_001.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R2_002.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R2_003.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R2_004.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R2_005.fastq.gz
+│   │   │   ├── LVWS2_TP1_12L_GGACCC_L007_R2_006.fastq.gz
+│   │   │   ├── merge-config-LVWS2_TP1_12L.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── Sample_LVWS2_TP1_13H
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_001.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_002.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_003.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_004.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_005.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_006.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_007.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R1_008.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_001.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_002.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_003.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_004.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_005.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_006.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_007.fastq.gz
+│   │   │   ├── LVWS2_TP1_13H_CCTTCA_L007_R2_008.fastq.gz
+│   │   │   ├── merge-config-LVWS2_TP1_13H.ini
+│   │   │   └── SampleSheet.csv
+│   │   └── Sample_LVWS2_TP1_13L
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_001.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_002.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_003.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_004.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_005.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_006.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_007.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_008.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_009.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R1_010.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_001.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_002.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_003.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_004.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_005.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_006.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_007.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_008.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_009.fastq.gz
+│   │       ├── LVWS_TP1_13L_TTCAGC_L007_R2_010.fastq.gz
+│   │       ├── merge-config-LVWS2_TP1_13L.ini
+│   │       └── SampleSheet.csv
+│   └── Project_Huber_CSF_FS904_30_55
+│       ├── Sample_FS904_12H_30
+│       │   ├── FS904_12H_30_AAGGGA_L007_R1_001.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R1_002.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R1_003.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R1_004.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R1_005.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R1_006.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R1_007.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R2_001.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R2_002.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R2_003.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R2_004.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R2_005.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R2_006.fastq.gz
+│       │   ├── FS904_12H_30_AAGGGA_L007_R2_007.fastq.gz
+│       │   ├── merge-config-FS904_12H_30.ini
+│       │   └── SampleSheet.csv
+│       ├── Sample_FS904_12H_55
+│       │   ├── FS904_12H_55_AAGACG_L007_R1_001.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R1_002.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R1_003.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R1_004.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R1_005.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R2_001.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R2_002.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R2_003.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R2_004.fastq.gz
+│       │   ├── FS904_12H_55_AAGACG_L007_R2_005.fastq.gz
+│       │   ├── merge-config-FS904_12H_55.ini
+│       │   └── SampleSheet.csv
+│       ├── Sample_FS904_12L_30
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_001.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_002.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_003.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_004.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_005.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_006.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_007.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R1_008.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_001.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_002.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_003.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_004.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_005.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_006.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_007.fastq.gz
+│       │   ├── FS904_12L_30_GGACCC_L007_R2_008.fastq.gz
+│       │   ├── merge-config-FS904_12L_30.ini
+│       │   └── SampleSheet.csv
+│       ├── Sample_FS904_12L_55
+│       │   ├── FS904_12L_55_GGATGT_L007_R1_001.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R1_002.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R1_003.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R1_004.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R1_005.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R1_006.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R2_001.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R2_002.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R2_003.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R2_004.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R2_005.fastq.gz
+│       │   ├── FS904_12L_55_GGATGT_L007_R2_006.fastq.gz
+│       │   ├── merge-config-FS904_12L_55.ini
+│       │   └── SampleSheet.csv
+│       ├── Sample_FS904_13H_30
+│       │   ├── FS904_13H_30_CCTTCA_L007_R1_001.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R1_002.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R1_003.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R1_004.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R1_005.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R1_006.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R1_007.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R2_001.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R2_002.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R2_003.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R2_004.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R2_005.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R2_006.fastq.gz
+│       │   ├── FS904_13H_30_CCTTCA_L007_R2_007.fastq.gz
+│       │   ├── merge-config-FS904_13H_30.ini
+│       │   └── SampleSheet.csv
+│       ├── Sample_FS904_13H_55
+│       │   ├── FS904_13H_55_CCTCGG_L007_R1_001.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R1_002.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R1_003.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R1_004.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R1_005.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R1_006.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R1_007.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R2_001.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R2_002.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R2_003.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R2_004.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R2_005.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R2_006.fastq.gz
+│       │   ├── FS904_13H_55_CCTCGG_L007_R2_007.fastq.gz
+│       │   ├── merge-config-FS904_13H_55.ini
+│       │   └── SampleSheet.csv
+│       ├── Sample_FS904_13L_30
+│       │   ├── FS904_13L_30_TTCAGC_L007_R1_001.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R1_002.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R1_003.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R1_004.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R1_005.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R1_006.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R2_001.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R2_002.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R2_003.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R2_004.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R2_005.fastq.gz
+│       │   ├── FS904_13L_30_TTCAGC_L007_R2_006.fastq.gz
+│       │   ├── merge-config-FS904_13L_30.ini
+│       │   └── SampleSheet.csv
+│       └── Sample_FS904_13L_55
+│           ├── FS904_13L_55_TTCGCT_L007_R1_001.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R1_002.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R1_003.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R1_004.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R1_005.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R2_001.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R2_002.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R2_003.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R2_004.fastq.gz
+│           ├── FS904_13L_55_TTCGCT_L007_R2_005.fastq.gz
+│           ├── merge-config-FS904_13L_55.ini
+│           └── SampleSheet.csv
+├── HS_Dec2014
+│   ├── FS907_80C
+│   │   ├── FS907_80_12INC
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R1_001.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R1_002.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R1_003.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R1_004.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R1_005.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R2_001.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R2_002.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R2_003.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R2_004.fastq.gz
+│   │   │   ├── FS907_80_12INC_AAGACG_L001_R2_005.fastq.gz
+│   │   │   ├── merge-config-FS907_80_12INC.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS907_80_12L10
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R1_001.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R1_002.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R1_003.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R1_004.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R1_005.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R1_006.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R2_001.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R2_002.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R2_003.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R2_004.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R2_005.fastq.gz
+│   │   │   ├── FS907_80_12L10_CCTTCA_L001_R2_006.fastq.gz
+│   │   │   ├── merge-config-FS907_80_12L10.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS907_80_12L9
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R1_001.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R1_002.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R1_003.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R1_004.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R1_005.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R1_006.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R2_001.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R2_002.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R2_003.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R2_004.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R2_005.fastq.gz
+│   │   │   ├── FS907_80_12L9_AAGGGA_L001_R2_006.fastq.gz
+│   │   │   ├── merge-config-FS907_80_12L9.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS907_80_13H6
+│   │   │   ├── FS907_80_13H6_GGACCC_L001_R1_001.fastq.gz
+│   │   │   ├── FS907_80_13H6_GGACCC_L001_R1_002.fastq.gz
+│   │   │   ├── FS907_80_13H6_GGACCC_L001_R1_003.fastq.gz
+│   │   │   ├── FS907_80_13H6_GGACCC_L001_R2_001.fastq.gz
+│   │   │   ├── FS907_80_13H6_GGACCC_L001_R2_002.fastq.gz
+│   │   │   ├── FS907_80_13H6_GGACCC_L001_R2_003.fastq.gz
+│   │   │   ├── merge-config-FS907_80_13H6.ini
+│   │   │   └── SampleSheet.csv
+│   │   └── FS907_80_13H8
+│   │       ├── FS907_80_13H8_TTCAGC_L001_R1_001.fastq.gz
+│   │       ├── FS907_80_13H8_TTCAGC_L001_R1_002.fastq.gz
+│   │       ├── FS907_80_13H8_TTCAGC_L001_R1_003.fastq.gz
+│   │       ├── FS907_80_13H8_TTCAGC_L001_R2_001.fastq.gz
+│   │       ├── FS907_80_13H8_TTCAGC_L001_R2_002.fastq.gz
+│   │       ├── FS907_80_13H8_TTCAGC_L001_R2_003.fastq.gz
+│   │       ├── merge-config-FS907_80_13H8.ini
+│   │       └── SampleSheet.csv
+│   └── FS908_80C
+│       ├── FS908_80_12L10
+│       │   ├── FS908_80_12L10_CCTCGG_L001_R1_001.fastq.gz
+│       │   ├── FS908_80_12L10_CCTCGG_L001_R1_002.fastq.gz
+│       │   ├── FS908_80_12L10_CCTCGG_L001_R1_003.fastq.gz
+│       │   ├── FS908_80_12L10_CCTCGG_L001_R2_001.fastq.gz
+│       │   ├── FS908_80_12L10_CCTCGG_L001_R2_002.fastq.gz
+│       │   ├── FS908_80_12L10_CCTCGG_L001_R2_003.fastq.gz
+│       │   ├── merge-config-FS908_80_12L10.ini
+│       │   └── SampleSheet.csv
+│       ├── FS908_80_13H7
+│       │   ├── FS908_80_13H7_GGATGT_L001_R1_001.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R1_002.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R1_003.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R1_004.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R1_005.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R1_006.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R2_001.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R2_002.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R2_003.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R2_004.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R2_005.fastq.gz
+│       │   ├── FS908_80_13H7_GGATGT_L001_R2_006.fastq.gz
+│       │   ├── merge-config-FS908_80_13H7.ini
+│       │   └── SampleSheet.csv
+│       └── FS908_80_13INC
+│           ├── FS908_80_13INC_TTCGCT_L001_R1_001.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R1_002.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R1_003.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R1_004.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R1_005.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R1_006.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R1_007.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R2_001.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R2_002.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R2_003.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R2_004.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R2_005.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R2_006.fastq.gz
+│           ├── FS908_80_13INC_TTCGCT_L001_R2_007.fastq.gz
+│           ├── merge-config-FS908_80_13INC.ini
+│           └── SampleSheet.csv
+├── HS_Jun2015
+│   ├── FS906_80_TP1_12H
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R1_001.fastq.gz
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R1_002.fastq.gz
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R1_003.fastq.gz
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R1_004.fastq.gz
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R2_001.fastq.gz
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R2_002.fastq.gz
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R2_003.fastq.gz
+│   │   ├── FS906_80_TP1_12H_GGATGT_L005_R2_004.fastq.gz
+│   │   ├── merge-config-FS906_80_TP1_12H.ini
+│   │   └── SampleSheet.csv
+│   ├── FS906_80_TP1_12L
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R1_001.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R1_002.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R1_003.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R1_004.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R1_005.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R2_001.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R2_002.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R2_003.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R2_004.fastq.gz
+│   │   ├── FS906_80_TP1_12L_TTCGCT_L005_R2_005.fastq.gz
+│   │   ├── merge-config-FS906_80_TP1_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── FS906_80_TP1_13H
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R1_001.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R1_002.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R1_003.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R1_004.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R1_005.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R1_006.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R2_001.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R2_002.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R2_003.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R2_004.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R2_005.fastq.gz
+│   │   ├── FS906_80_TP1_13H_AAGGGA_L006_R2_006.fastq.gz
+│   │   ├── merge-config-FS906_80_TP1_13H.ini
+│   │   └── SampleSheet.csv
+│   ├── FS906_80_TP1_13L
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R1_001.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R1_002.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R1_003.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R1_004.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R1_005.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R2_001.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R2_002.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R2_003.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R2_004.fastq.gz
+│   │   ├── FS906_80_TP1_13L_CCTTCA_L006_R2_005.fastq.gz
+│   │   ├── merge-config-FS906_80_TP1_13L.ini
+│   │   └── SampleSheet.csv
+│   ├── FS908_80_12C_INC_11
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R1_001.fastq.gz
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R1_002.fastq.gz
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R1_003.fastq.gz
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R1_004.fastq.gz
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R2_001.fastq.gz
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R2_002.fastq.gz
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R2_003.fastq.gz
+│   │   ├── FS908_80_12C_INC_11_TTCGCT_L003_R2_004.fastq.gz
+│   │   ├── merge-config-FS908_80_12C_INC_11.ini
+│   │   └── SampleSheet.csv
+│   ├── FS908_80_12C_INC_9
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_001.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_002.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_003.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_004.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_005.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_006.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_007.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R1_008.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_001.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_002.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_003.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_004.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_005.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_006.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_007.fastq.gz
+│   │   ├── FS908_80_12C_INC_9_GGATGT_L003_R2_008.fastq.gz
+│   │   ├── merge-config-FS908_80_12C_INC_9.ini
+│   │   └── SampleSheet.csv
+│   ├── FS908_80_TP1_12H
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R1_001.fastq.gz
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R1_002.fastq.gz
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R1_003.fastq.gz
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R1_004.fastq.gz
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R2_001.fastq.gz
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R2_002.fastq.gz
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R2_003.fastq.gz
+│   │   ├── FS908_80_TP1_12H_AAGACG_L006_R2_004.fastq.gz
+│   │   ├── merge-config-FS908_80_TP1_12H.ini
+│   │   └── SampleSheet.csv
+│   ├── FS908_80_TP1_12L
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R1_001.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R1_002.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R1_003.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R1_004.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R1_005.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R2_001.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R2_002.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R2_003.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R2_004.fastq.gz
+│   │   ├── FS908_80_TP1_12L_CCTCGG_L006_R2_005.fastq.gz
+│   │   ├── merge-config-FS908_80_TP1_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── FS908_80_TP1_13H
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R1_001.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R1_002.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R1_003.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R1_004.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R1_005.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R2_001.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R2_002.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R2_003.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R2_004.fastq.gz
+│   │   ├── FS908_80_TP1_13H_GGATGT_L006_R2_005.fastq.gz
+│   │   ├── merge-config-FS908_80_TP1_13H.ini
+│   │   └── SampleSheet.csv
+│   ├── FS908_80_TP1_13L
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R1_001.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R1_002.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R1_003.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R1_004.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R1_005.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R2_001.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R2_002.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R2_003.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R2_004.fastq.gz
+│   │   ├── FS908_80_TP1_13L_TTCGCT_L006_R2_005.fastq.gz
+│   │   ├── merge-config-FS908_80_TP1_13L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS4_55_TP1_12H
+│   │   ├── LVWS4_55_TP1_12H_AAGGGA_L004_R1_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_12H_AAGGGA_L004_R1_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_12H_AAGGGA_L004_R1_003.fastq.gz
+│   │   ├── LVWS4_55_TP1_12H_AAGGGA_L004_R2_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_12H_AAGGGA_L004_R2_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_12H_AAGGGA_L004_R2_003.fastq.gz
+│   │   ├── merge-config-LVWS4_55_TP1_12H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS4_55_TP1_12L
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_003.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_004.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_005.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_006.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_007.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_008.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R1_009.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_003.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_004.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_005.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_006.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_007.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_008.fastq.gz
+│   │   ├── LVWS4_55_TP1_12L_CCTTCA_L004_R2_009.fastq.gz
+│   │   ├── merge-config-LVWS4_55_TP1_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS4_55_TP1_13H
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R1_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R1_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R1_003.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R1_004.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R1_005.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R1_006.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R1_007.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R2_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R2_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R2_003.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R2_004.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R2_005.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R2_006.fastq.gz
+│   │   ├── LVWS4_55_TP1_13H_GGACCC_L004_R2_007.fastq.gz
+│   │   ├── merge-config-LVWS4_55_TP1_13H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS4_55_TP1_13L
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R1_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R1_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R1_003.fastq.gz
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R1_004.fastq.gz
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R2_001.fastq.gz
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R2_002.fastq.gz
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R2_003.fastq.gz
+│   │   ├── LVWS4_55_TP1_13L_TTCAGC_L004_R2_004.fastq.gz
+│   │   ├── merge-config-LVWS4_55_TP1_13L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP1_12H
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_004.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_005.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_006.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_007.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R1_008.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_004.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_005.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_006.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_007.fastq.gz
+│   │   ├── LVWS5_30_TP1_12H_AAGGGA_L005_R2_008.fastq.gz
+│   │   ├── merge-config-LVWS5_30_TP1_12H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP1_12L
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R1_004.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R1_005.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R2_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R2_004.fastq.gz
+│   │   ├── LVWS5_30_TP1_12L_GGACCC_L006_R2_005.fastq.gz
+│   │   ├── merge-config-LVWS5_30_TP1_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP1_13H
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R1_004.fastq.gz
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R2_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_13H_TTCAGC_L006_R2_004.fastq.gz
+│   │   ├── merge-config-LVWS5_30_TP1_13H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP1_13L
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R1_004.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R1_005.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R2_003.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R2_004.fastq.gz
+│   │   ├── LVWS5_30_TP1_13L_CCTTCA_L005_R2_005.fastq.gz
+│   │   ├── merge-config-LVWS5_30_TP1_13L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_30_TP1_12H
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R1_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R1_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R1_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R1_004.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R1_005.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R2_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R2_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R2_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R2_004.fastq.gz
+│   │   ├── LVWS6_30_TP1_12H_GGACCC_L005_R2_005.fastq.gz
+│   │   ├── merge-config-LVWS6_30_TP1_12H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_30_TP1_12L
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R1_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R1_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R1_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R1_004.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R1_005.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R1_006.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R1_007.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R2_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R2_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R2_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R2_004.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R2_005.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R2_006.fastq.gz
+│   │   ├── LVWS6_30_TP1_12L_AAGACG_L004_R2_007.fastq.gz
+│   │   ├── merge-config-LVWS6_30_TP1_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_30_TP1_13H
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R1_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R1_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R1_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R1_004.fastq.gz
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R2_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R2_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R2_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_13H_CCTCGG_L004_R2_004.fastq.gz
+│   │   ├── merge-config-LVWS6_30_TP1_13H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_30_TP1_13L
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R1_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R1_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R1_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R1_004.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R1_005.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R1_006.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R2_001.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R2_002.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R2_003.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R2_004.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R2_005.fastq.gz
+│   │   ├── LVWS6_30_TP1_13L_TTCAGC_L005_R2_006.fastq.gz
+│   │   ├── merge-config-LVWS6_30_TP1_13L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_30_TP2_12L
+│   │   ├── LVWS6_30_TP2_12L_AAGGGA_L003_R1_001.fastq.gz
+│   │   ├── LVWS6_30_TP2_12L_AAGGGA_L003_R1_002.fastq.gz
+│   │   ├── LVWS6_30_TP2_12L_AAGGGA_L003_R2_001.fastq.gz
+│   │   ├── LVWS6_30_TP2_12L_AAGGGA_L003_R2_002.fastq.gz
+│   │   ├── merge-config-LVWS6_30_TP2_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_30_TP2_13H
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R1_001.fastq.gz
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R1_002.fastq.gz
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R1_003.fastq.gz
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R1_004.fastq.gz
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R2_001.fastq.gz
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R2_002.fastq.gz
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R2_003.fastq.gz
+│   │   ├── LVWS6_30_TP2_13H_CCTTCA_L003_R2_004.fastq.gz
+│   │   ├── merge-config-LVWS6_30_TP2_13H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_55_TP1_12H
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R1_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R1_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R1_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R1_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R1_005.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R1_006.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R2_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R2_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R2_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R2_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R2_005.fastq.gz
+│   │   ├── LVWS6_55_TP1_12H_AAGACG_L005_R2_006.fastq.gz
+│   │   ├── merge-config-LVWS5_55_TP1_12H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_55_TP1_12L
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R1_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R1_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R1_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R1_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R1_005.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R1_006.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R2_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R2_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R2_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R2_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R2_005.fastq.gz
+│   │   ├── LVWS6_55_TP1_12L_GGATGT_L004_R2_006.fastq.gz
+│   │   ├── merge-config-LVWS6_55_TP1_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_55_TP1_13H
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R1_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R1_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R1_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R1_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R1_005.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R1_006.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R1_007.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R2_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R2_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R2_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R2_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R2_005.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R2_006.fastq.gz
+│   │   ├── LVWS6_55_TP1_13H_TTCGCT_L004_R2_007.fastq.gz
+│   │   ├── merge-config-LVWS6_55_TP1_13H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_55_TP1_13L
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R1_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R1_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R1_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R1_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R1_005.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R2_001.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R2_002.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R2_003.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R2_004.fastq.gz
+│   │   ├── LVWS6_55_TP1_13L_CCTCGG_L005_R2_005.fastq.gz
+│   │   ├── merge-config-LVWS6_55_TP1_13L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_55_TP2_12H
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R1_001.fastq.gz
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R1_002.fastq.gz
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R1_003.fastq.gz
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R1_004.fastq.gz
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R2_001.fastq.gz
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R2_002.fastq.gz
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R2_003.fastq.gz
+│   │   ├── LVWS6_55_TP2_12H_GGACCC_L003_R2_004.fastq.gz
+│   │   ├── merge-config-LVWS6_55_TP2_12H.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_55_TP2_12L
+│   │   ├── LVWS6_55_TP2_12L_TTCAGC_L003_R1_001.fastq.gz
+│   │   ├── LVWS6_55_TP2_12L_TTCAGC_L003_R1_002.fastq.gz
+│   │   ├── LVWS6_55_TP2_12L_TTCAGC_L003_R2_001.fastq.gz
+│   │   ├── LVWS6_55_TP2_12L_TTCAGC_L003_R2_002.fastq.gz
+│   │   ├── merge-config-LVWS6_55_TP2_12L.ini
+│   │   └── SampleSheet.csv
+│   ├── LVWS6_55_TP2_13H
+│   │   ├── LVWS6_55_TP2_13H_AAGACG_L003_R1_001.fastq.gz
+│   │   ├── LVWS6_55_TP2_13H_AAGACG_L003_R1_002.fastq.gz
+│   │   ├── LVWS6_55_TP2_13H_AAGACG_L003_R2_001.fastq.gz
+│   │   ├── LVWS6_55_TP2_13H_AAGACG_L003_R2_002.fastq.gz
+│   │   ├── merge-config-LVWS6_55_TP2_13H.ini
+│   │   └── SampleSheet.csv
+│   └── LVWS6_55_TP2_13L
+│       ├── LVWS6_55_TP2_13L_CCTCGG_L003_R1_001.fastq.gz
+│       ├── LVWS6_55_TP2_13L_CCTCGG_L003_R1_002.fastq.gz
+│       ├── LVWS6_55_TP2_13L_CCTCGG_L003_R1_003.fastq.gz
+│       ├── LVWS6_55_TP2_13L_CCTCGG_L003_R2_001.fastq.gz
+│       ├── LVWS6_55_TP2_13L_CCTCGG_L003_R2_002.fastq.gz
+│       ├── LVWS6_55_TP2_13L_CCTCGG_L003_R2_003.fastq.gz
+│       ├── merge-config-LVWS6_55_TP2_13L.ini
+│       └── SampleSheet.csv
+├── HS_JunJul2014
+│   ├── Project_HUBER_POOL4_Axial_DNA
+│   │   ├── FS891_Anemone_DNA
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_001.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_002.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_003.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_004.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_005.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_006.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_007.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_008.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R1_009.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_001.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_002.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_003.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_004.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_005.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_006.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_007.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_008.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L002_R2_009.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_001.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_002.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_003.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_004.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_005.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_006.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_007.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R1_008.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_001.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_002.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_003.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_004.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_005.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_006.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_007.fastq.gz
+│   │   │   ├── FS891_DNA_TTCGCT_L007_R2_008.fastq.gz
+│   │   │   ├── merge-config-FS891_Anemone_DNA.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS896_ElGuapo_DNA
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_001.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_002.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_003.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_004.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_005.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_006.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_007.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_008.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_009.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_010.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_011.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_012.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_013.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R1_014.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_001.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_002.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_003.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_004.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_005.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_006.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_007.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_008.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_009.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_010.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_011.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_012.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_013.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L002_R2_014.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_001.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_002.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_003.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_004.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_005.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_006.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_007.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_008.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_009.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_010.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_011.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R1_012.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_001.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_002.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_003.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_004.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_005.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_006.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_007.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_008.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_009.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_010.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_011.fastq.gz
+│   │   │   ├── FS896_DNA_AAGACG_L007_R2_012.fastq.gz
+│   │   │   ├── merge-config-FS896_ElGuapo_DNA.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS898_N3Area_DNA
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_001.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_002.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_003.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_004.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_005.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_006.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_007.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_008.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_009.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_010.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_011.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R1_012.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_001.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_002.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_003.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_004.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_005.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_006.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_007.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_008.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_009.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_010.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_011.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L002_R2_012.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_001.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_002.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_003.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_004.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_005.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_006.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_007.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_008.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_009.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_010.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R1_011.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_001.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_002.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_003.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_004.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_005.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_006.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_007.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_008.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_009.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_010.fastq.gz
+│   │   │   ├── FS898_DNA_CCTCGG_L007_R2_011.fastq.gz
+│   │   │   ├── merge-config-FS898_N3Area_DNA.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS900_Dependable_DNA
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_001.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_002.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_003.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_004.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_005.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_006.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_007.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_008.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_009.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_010.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_011.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R1_012.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_001.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_002.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_003.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_004.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_005.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_006.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_007.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_008.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_009.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_010.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_011.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L002_R2_012.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_001.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_002.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_003.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_004.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_005.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_006.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_007.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_008.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_009.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_010.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R1_011.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_001.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_002.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_003.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_004.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_005.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_006.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_007.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_008.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_009.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_010.fastq.gz
+│   │   │   ├── FS900_DNA_GGATGT_L007_R2_011.fastq.gz
+│   │   │   ├── merge-config-FS900_Dependable_DNA.ini
+│   │   │   └── SampleSheet.csv
+│   │   ├── FS903_Mrk113_DNA
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R1_001.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R1_002.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R1_003.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R1_004.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R2_001.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R2_002.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R2_003.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L002_R2_004.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L007_R1_001.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L007_R1_002.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L007_R1_003.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L007_R2_001.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L007_R2_002.fastq.gz
+│   │   │   ├── FS903_DNA_CCTTCA_L007_R2_003.fastq.gz
+│   │   │   ├── FS903_L2_1.cPickle
+│   │   │   ├── FS903_L2_1.png
+│   │   │   ├── FS903_L2_2.cPickle
+│   │   │   ├── FS903_L2_2.png
+│   │   │   ├── FS903_L2_3.cPickle
+│   │   │   ├── FS903_L2_3.png
+│   │   │   ├── FS903_L2_4.cPickle
+│   │   │   ├── FS903_L2_4.png
+│   │   │   ├── FS903_L7_1.cPickle
+│   │   │   ├── FS903_L7_1.png
+│   │   │   ├── FS903_L7_2.cPickle
+│   │   │   ├── FS903_L7_2.png
+│   │   │   ├── FS903_L7_3.cPickle
+│   │   │   ├── FS903_L7_3.png
+│   │   │   ├── merge-config-FS903_Mrk113_DNA.ini
+│   │   │   └── SampleSheet.csv
+│   │   └── FS904_Mrk33_DNA
+│   │       ├── FS904_DNA_GGACCC_L002_R1_001.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L002_R1_002.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L002_R1_003.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L002_R1_004.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L002_R2_001.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L002_R2_002.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L002_R2_003.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L002_R2_004.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R1_001.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R1_002.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R1_003.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R1_004.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R2_001.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R2_002.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R2_003.fastq.gz
+│   │       ├── FS904_DNA_GGACCC_L007_R2_004.fastq.gz
+│   │       ├── merge-config-FS904_Mrk33_DNA.ini
+│   │       └── SampleSheet.csv
+│   └── Project_HUBER_POOL5_Axial_cDNA
+│       ├── FS891_Anemone_cDNA
+│       │   ├── FS891_RNA_GGACCC_L001_R1_001.fastq.gz
+│       │   ├── FS891_RNA_GGACCC_L001_R1_002.fastq.gz
+│       │   ├── FS891_RNA_GGACCC_L001_R1_003.fastq.gz
+│       │   ├── FS891_RNA_GGACCC_L001_R1_004.fastq.gz
+│       │   ├── FS891_RNA_GGACCC_L001_R2_001.fastq.gz
+│       │   ├── FS891_RNA_GGACCC_L001_R2_002.fastq.gz
+│       │   ├── FS891_RNA_GGACCC_L001_R2_003.fastq.gz
+│       │   ├── FS891_RNA_GGACCC_L001_R2_004.fastq.gz
+│       │   ├── merge-config-FS891_Anemone_cDNA.ini
+│       │   └── SampleSheet.csv
+│       ├── FS896_ElGuapo_cDNA
+│       │   ├── FS896_RNA_AAGACG_L001_R1_001.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R1_002.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R1_003.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R1_004.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R1_005.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R1_006.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R1_007.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R2_001.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R2_002.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R2_003.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R2_004.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R2_005.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R2_006.fastq.gz
+│       │   ├── FS896_RNA_AAGACG_L001_R2_007.fastq.gz
+│       │   ├── merge-config-FS896_ElGuapo_cDNA.ini
+│       │   └── SampleSheet.csv
+│       ├── FS898_N3Area_cDNA
+│       │   ├── FS898_RNA_GGATGT_L001_R1_001.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R1_002.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R1_003.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R1_004.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R1_005.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R1_006.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R2_001.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R2_002.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R2_003.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R2_004.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R2_005.fastq.gz
+│       │   ├── FS898_RNA_GGATGT_L001_R2_006.fastq.gz
+│       │   ├── merge-config-FS898_N3Area_cDNA.ini
+│       │   └── SampleSheet.csv
+│       ├── FS900_Dependable_cDNA
+│       │   ├── FS900_RNA_TTCAGC_L001_R1_001.fastq.gz
+│       │   ├── FS900_RNA_TTCAGC_L001_R1_002.fastq.gz
+│       │   ├── FS900_RNA_TTCAGC_L001_R1_003.fastq.gz
+│       │   ├── FS900_RNA_TTCAGC_L001_R1_004.fastq.gz
+│       │   ├── FS900_RNA_TTCAGC_L001_R2_001.fastq.gz
+│       │   ├── FS900_RNA_TTCAGC_L001_R2_002.fastq.gz
+│       │   ├── FS900_RNA_TTCAGC_L001_R2_003.fastq.gz
+│       │   ├── FS900_RNA_TTCAGC_L001_R2_004.fastq.gz
+│       │   ├── merge-config-FS900_Dependable_cDNA.ini
+│       │   └── SampleSheet.csv
+│       ├── FS903_Mrk113_cDNA
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_001.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_002.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_003.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_004.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_005.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_006.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_007.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_008.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R1_009.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_001.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_002.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_003.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_004.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_005.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_006.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_007.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_008.fastq.gz
+│       │   ├── FS903_RNA_AAGGGA_L001_R2_009.fastq.gz
+│       │   ├── merge-config-FS903_Mrk113_cDNA.ini
+│       │   └── SampleSheet.csv
+│       └── FS904_Mrk33_cDNA
+│           ├── FS904_RNA_CCTTCA_L001_R1_001.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R1_002.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R1_003.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R1_004.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R1_005.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R1_006.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R2_001.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R2_002.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R2_003.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R2_004.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R2_005.fastq.gz
+│           ├── FS904_RNA_CCTTCA_L001_R2_006.fastq.gz
+│           ├── merge-config-FS904_Mrk33_cDNA.ini
+│           └── SampleSheet.csv
+├── HS_MarApr_2013
+│   ├── Anemone_DNA
+│   │   ├── Axial2012_FS857_DNA_2_R1_001.fastq.gz
+│   │   ├── Axial2012_FS857_DNA_2_R2_001.fastq.gz
+│   │   ├── Axial2012_FS857_DNA_R1.fastq.gz
+│   │   └── Axial2012_FS857_DNA_R2.fastq.gz
+│   ├── Anemone_RNA
+│   │   ├── Axial2012_FS857_RNA_2_R1_001.fastq.gz
+│   │   ├── Axial2012_FS857_RNA_2_R2_001.fastq.gz
+│   │   ├── Axial2012_FS857_RNA_R1.fastq.gz
+│   │   └── Axial2012_FS857_RNA_R2.fastq.gz
+│   ├── Marker113_DNA
+│   │   ├── Axial2012_FS861_DNA_2_R1_001.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_2_R1_002.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_2_R1_003.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_2_R2_001.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_2_R2_002.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_2_R2_003.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_R1_001.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_R1_002.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_R1_003.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_R2_001.fastq.gz
+│   │   ├── Axial2012_FS861_DNA_R2_002.fastq.gz
+│   │   └── Axial2012_FS861_DNA_R2_003.fastq.gz
+│   ├── Marker113_RNA
+│   │   ├── Axial2012_FS861_RNA_2_R1_001.fastq.gz
+│   │   ├── Axial2012_FS861_RNA_2_R1_002.fastq.gz
+│   │   ├── Axial2012_FS861_RNA_2_R2_001.fastq.gz
+│   │   ├── Axial2012_FS861_RNA_2_R2_002.fastq.gz
+│   │   ├── Axial2012_FS861_RNA_R1_001.fastq.gz
+│   │   ├── Axial2012_FS861_RNA_R1_002.fastq.gz
+│   │   ├── Axial2012_FS861_RNA_R2_001.fastq.gz
+│   │   └── Axial2012_FS861_RNA_R2_002.fastq.gz
+│   ├── Marshmallow_DNA
+│   │   ├── Axial2011_FS821_DNA_2_R1_001.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_2_R1_002.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_2_R2_001.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_2_R2_002.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_R1_001.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_R1_002.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_R1_003.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_R2_001.fastq.gz
+│   │   ├── Axial2011_FS821_DNA_R2_002.fastq.gz
+│   │   └── Axial2011_FS821_DNA_R2_003.fastq.gz
+│   ├── Marshmallow_RNA
+│   │   ├── Axial2011_FS820_RNA_2_R1_001.fastq.gz
+│   │   ├── Axial2011_FS820_RNA_2_R2_001.fastq.gz
+│   │   ├── Axial2011_FS820_RNA_R1_001.fastq.gz
+│   │   └── Axial2011_FS820_RNA_R2_001.fastq.gz
+│   ├── N3_DNA
+│   │   ├── Axial2011_FS828_DNA_2_R1_001.fastq.gz
+│   │   ├── Axial2011_FS828_DNA_2_R2_001.fastq.gz
+│   │   ├── Axial2011_FS828_DNA_R1.fastq.gz
+│   │   └── Axial2011_FS828_DNA_R2.fastq.gz
+│   └── N3_RNA
+│       ├── Axial2011_FS827_RNA_2_R1_001.fastq.gz
+│       ├── Axial2011_FS827_RNA_2_R1_002.fastq.gz
+│       ├── Axial2011_FS827_RNA_2_R2_001.fastq.gz
+│       ├── Axial2011_FS827_RNA_2_R2_002.fastq.gz
+│       ├── Axial2011_FS827_RNA_R1_001.fastq.gz
+│       ├── Axial2011_FS827_RNA_R1_002.fastq.gz
+│       ├── Axial2011_FS827_RNA_R2_001.fastq.gz
+│       └── Axial2011_FS827_RNA_R2_002.fastq.gz
+├── HS_March2015
+│   ├── CTD1200_DNA
+│   │   ├── CTD1200_DNA_GGATGT_L004_R1_001.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_R1_002.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_R1_003.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_R2_001.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_R2_002.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_R2_003.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L005_R1_001.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── CTD1200_RNA
+│   │   ├── CTD1200_RNA_TTCGCT_L004_R1_001.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L004_R1_002.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L004_R2_001.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L004_R2_002.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L005_R1_001.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS906_DNA
+│   │   ├── FS906_DNA_AAGGGA_L004_R1_001.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_R1_002.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_R1_003.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_R1_004.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_R2_001.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_R2_002.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_R2_003.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_R2_004.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L005_R1_001.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS906_RNA
+│   │   ├── FS906_RNA_CCTTCA_L004_R1_001.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_R1_002.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_R1_003.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_R2_001.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_R2_002.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_R2_003.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L005_R1_001.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS907_DNA
+│   │   ├── FS907_DNA_GGACCC_L004_R1_001.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_R1_002.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_R1_003.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_R1_004.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_R2_001.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_R2_002.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_R2_003.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_R2_004.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L005_R1_001.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS907_RNA
+│   │   ├── FS907_RNA_TTCAGC_L004_R1_001.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_R1_002.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_R2_001.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_R2_002.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L005_R1_001.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS908_DNA
+│   │   ├── FS908_DNA_AAGACG_L004_R1_001.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_R1_002.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_R1_003.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_R1_004.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_R2_001.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_R2_002.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_R2_003.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_R2_004.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L005_R1_001.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS908_RNA
+│   │   ├── FS908_RNA_CCTCGG_L004_R1_001.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_R1_002.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_R2_001.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_R2_002.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L005_R1_001.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L005_R2_001.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP2_12H
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R1_004.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R1_005.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R1_006.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R2_003.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R2_004.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R2_005.fastq.gz
+│   │   ├── LVWS5_30_TP2_12H_AAGGGA_L003_R2_006.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP2_12L
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R1_004.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R1_005.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R2_003.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R2_004.fastq.gz
+│   │   ├── LVWS5_30_TP2_12L_CCTTCA_L003_R2_005.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP2_13H
+│   │   ├── LVWS5_30_TP2_13H_GGACCC_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_13H_GGACCC_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_13H_GGACCC_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP2_13H_GGACCC_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_13H_GGACCC_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_13H_GGACCC_L003_R2_003.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_30_TP2_13L
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R1_004.fastq.gz
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R2_003.fastq.gz
+│   │   ├── LVWS5_30_TP2_13L_TTCAGC_L003_R2_004.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_55_TP2_12H
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R1_004.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R1_005.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R2_003.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R2_004.fastq.gz
+│   │   ├── LVWS5_55_TP2_12H_AAGACG_L003_R2_005.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_55_TP2_12L
+│   │   ├── LVWS5_55_TP2_12L_CCTCGG_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_55_TP2_12L_CCTCGG_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_55_TP2_12L_CCTCGG_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_55_TP2_12L_CCTCGG_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_55_TP2_12L_CCTCGG_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_55_TP2_12L_CCTCGG_L003_R2_003.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_55_TP2_13H
+│   │   ├── LVWS5_55_TP2_13H_GGATGT_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_55_TP2_13H_GGATGT_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_55_TP2_13H_GGATGT_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_55_TP2_13H_GGATGT_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_55_TP2_13H_GGATGT_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_55_TP2_13H_GGATGT_L003_R2_003.fastq.gz
+│   │   └── SampleSheet.csv
+│   └── LVWS5_55_TP2_13L
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R1_001.fastq.gz
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R1_002.fastq.gz
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R1_003.fastq.gz
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R1_004.fastq.gz
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R2_001.fastq.gz
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R2_002.fastq.gz
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R2_003.fastq.gz
+│       ├── LVWS5_55_TP2_13L_TTCGCT_L003_R2_004.fastq.gz
+│       └── SampleSheet.csv
+├── HS_May2015
+│   ├── CTD1200_DNA_Run2
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R1_001.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R1_002.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R1_003.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R1_004.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R1_005.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R2_001.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R2_002.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R2_003.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R2_004.fastq.gz
+│   │   ├── CTD1200_DNA_GGATGT_L004_RUN2_R2_005.fastq.gz
+│   │   ├── merge-config-CTD1200_DNA_Run2.ini
+│   │   └── SampleSheet.csv
+│   ├── CTD1200_RNA_Run2
+│   │   ├── CTD1200_RNA_TTCGCT_L004_RUN2_R1_001.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L004_RUN2_R1_002.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L004_RUN2_R2_001.fastq.gz
+│   │   ├── CTD1200_RNA_TTCGCT_L004_RUN2_R2_002.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS906_DNA_Run2
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_001.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_002.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_003.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_004.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_005.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_006.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_007.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R1_008.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_001.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_002.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_003.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_004.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_005.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_006.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_007.fastq.gz
+│   │   ├── FS906_DNA_AAGGGA_L004_RUN2_R2_008.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS906_RNA_Run2
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R1_001.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R1_002.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R1_003.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R1_004.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R1_005.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R1_006.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R2_001.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R2_002.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R2_003.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R2_004.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R2_005.fastq.gz
+│   │   ├── FS906_RNA_CCTTCA_L004_RUN2_R2_006.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS907_DNA_Run2
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_001.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_002.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_003.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_004.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_005.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_006.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_007.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R1_008.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_001.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_002.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_003.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_004.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_005.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_006.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_007.fastq.gz
+│   │   ├── FS907_DNA_GGACCC_L004_RUN2_R2_008.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS907_RNA_Run2
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R1_001.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R1_002.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R1_003.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R1_004.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R2_001.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R2_002.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R2_003.fastq.gz
+│   │   ├── FS907_RNA_TTCAGC_L004_RUN2_R2_004.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS908_DNA_Run2
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R1_001.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R1_002.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R1_003.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R1_004.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R1_005.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R1_006.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R2_001.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R2_002.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R2_003.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R2_004.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R2_005.fastq.gz
+│   │   ├── FS908_DNA_AAGACG_L004_RUN2_R2_006.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── FS908_RNA_Run2
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R1_001.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R1_002.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R1_003.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R1_004.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R1_005.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R2_001.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R2_002.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R2_003.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R2_004.fastq.gz
+│   │   ├── FS908_RNA_CCTCGG_L004_RUN2_R2_005.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS4_55_TP2_12L
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R1_001.fastq.gz
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R1_002.fastq.gz
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R1_003.fastq.gz
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R1_004.fastq.gz
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R2_001.fastq.gz
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R2_002.fastq.gz
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R2_003.fastq.gz
+│   │   ├── LVWS4_55_TP2_12L_AAGACG_L003_R2_004.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS4_55_TP2_13H
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R1_001.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R1_002.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R1_003.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R1_004.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R1_005.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R1_006.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R1_007.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R2_001.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R2_002.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R2_003.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R2_004.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R2_005.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R2_006.fastq.gz
+│   │   ├── LVWS4_55_TP2_13H_CCTCGG_L003_R2_007.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_55_TP1_12H
+│   │   ├── LVWS5_55_TP1_12H_GGATGT_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_12H_GGATGT_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_12H_GGATGT_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_55_TP1_12H_GGATGT_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_12H_GGATGT_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_12H_GGATGT_L003_R2_003.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_55_TP1_12L
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R1_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R1_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R1_003.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R1_004.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R1_005.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R1_006.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R1_007.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R2_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R2_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R2_003.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R2_004.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R2_005.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R2_006.fastq.gz
+│   │   ├── LVWS5_55_TP1_12L_AAGACG_L001_R2_007.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_55_TP1_13H
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_003.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_004.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_005.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_006.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_007.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_008.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_009.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_010.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_011.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_012.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_013.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R1_014.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_003.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_004.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_005.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_006.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_007.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_008.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_009.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_010.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_011.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_012.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_013.fastq.gz
+│   │   ├── LVWS5_55_TP1_13H_CCTCGG_L001_R2_014.fastq.gz
+│   │   └── SampleSheet.csv
+│   ├── LVWS5_55_TP1_13L
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R1_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R1_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R1_003.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R1_004.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R1_005.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R1_006.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R2_001.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R2_002.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R2_003.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R2_004.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R2_005.fastq.gz
+│   │   ├── LVWS5_55_TP1_13L_TTCGCT_L003_R2_006.fastq.gz
+│   │   └── SampleSheet.csv
+│   └── NorthPond
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R1_001.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R1_002.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R1_003.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R1_004.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R1_005.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R1_006.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R2_001.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R2_002.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R2_003.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R2_004.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R2_005.fastq.gz
+│       ├── NP1383_shal_TP1_12C_10_CCTTCA_L003_R2_006.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R1_001.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R1_002.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R1_003.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R1_004.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R1_005.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R2_001.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R2_002.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R2_003.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R2_004.fastq.gz
+│       ├── NP1383_shal_TP1_12C_9_AAGGGA_L003_R2_005.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R1_001.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R1_002.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R1_003.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R1_004.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R2_001.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R2_002.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R2_003.fastq.gz
+│       ├── NP1383_shal_TP1_13C_10_TTCAGC_L003_R2_004.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R1_001.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R1_002.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R1_003.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R1_004.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R1_005.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R1_006.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R2_001.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R2_002.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R2_003.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R2_004.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R2_005.fastq.gz
+│       ├── NP1383_shal_TP1_13C_9_GGACCC_L003_R2_006.fastq.gz
+│       └── SampleSheet.csv
+├── NS_April2016
+│   ├── FS917-55-12C-TP1-10_S12_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-10_S12_R2_001.fastq.gz
+│   ├── FS917-55-12C-TP1-7_S9_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-7_S9_R2_001.fastq.gz
+│   ├── FS917-55-12C-TP1-8_S10_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-8_S10_R2_001.fastq.gz
+│   ├── FS917-55-12C-TP1-9_S11_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-9_S11_R2_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-10_S4_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-10_S4_R2_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-7_S1_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-7_S1_R2_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-8_S2_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-8_S2_R2_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-9_S3_R1_001.fastq.gz
+│   ├── FS917-55-12C-TP1-INC3-9_S3_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-5_S13_R1_001.fastq.gz
+│   ├── FS917-55-13C-TP1-5_S13_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-6_S14_R1_001.fastq.gz
+│   ├── FS917-55-13C-TP1-6_S14_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-7_S15_R1_001.fastq.gz
+│   ├── FS917-55-13C-TP1-7_S15_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-8_S16_R1_001.fastq.gz
+│   ├── FS917-55-13C-TP1-8_S16_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-INC4-6_S5_R1_001.fastq.gz
+│   ├── FS917-55-13C-TP1-INC4-6_S5_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-INC4-7_S6_R1_001.fastq.gz
+│   ├── FS917-55-13C-TP1-INC4-7_S6_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-INC4-8_S7_R1_001.fastq.gz
+│   ├── FS917-55-13C-TP1-INC4-8_S7_R2_001.fastq.gz
+│   ├── FS917-55-13C-TP1-INC4-9_S8_R1_001.fastq.gz
+│   └── FS917-55-13C-TP1-INC4-9_S8_R2_001.fastq.gz
+├── NS_Jan2016
+│   ├── CTDback-cDNA_S9_R1_001.fastq.gz
+│   ├── CTDback-cDNA_S9_R2_001.fastq.gz
+│   ├── CTDback-DNA_S1_R1_001.fastq.gz
+│   ├── CTDback-DNA_S1_R2_001.fastq.gz
+│   ├── CTDplume-cDNA_S10_R1_001.fastq.gz
+│   ├── CTDplume-cDNA_S10_R2_001.fastq.gz
+│   ├── CTDplume-DNA_S2_R1_001.fastq.gz
+│   ├── CTDplume-DNA_S2_R2_001.fastq.gz
+│   ├── FS907-cDNA_S15_R1_001.fastq.gz
+│   ├── FS907-cDNA_S15_R2_001.fastq.gz
+│   ├── FS914-cDNA_S11_R1_001.fastq.gz
+│   ├── FS914-cDNA_S11_R2_001.fastq.gz
+│   ├── FS914-DNA_S4_R1_001.fastq.gz
+│   ├── FS914-DNA_S4_R2_001.fastq.gz
+│   ├── FS915-cDNA_S12_R1_001.fastq.gz
+│   ├── FS915-cDNA_S12_R2_001.fastq.gz
+│   ├── FS915-DNA_S6_R1_001.fastq.gz
+│   ├── FS915-DNA_S6_R2_001.fastq.gz
+│   ├── FS917-cDNA_S13_R1_001.fastq.gz
+│   ├── FS917-cDNA_S13_R2_001.fastq.gz
+│   ├── FS917-DNA_S7_R1_001.fastq.gz
+│   ├── FS917-DNA_S7_R2_001.fastq.gz
+│   ├── FS918-cDNA_S14_R1_001.fastq.gz
+│   ├── FS918-cDNA_S14_R2_001.fastq.gz
+│   ├── FS918-DNA_S8_R1_001.fastq.gz
+│   └── FS918-DNA_S8_R2_001.fastq.gz
+└── output.tree.axial
+
+151 directories, 1864 files
