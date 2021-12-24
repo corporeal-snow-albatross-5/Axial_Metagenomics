@@ -7,17 +7,17 @@
 -qc_snakemake.sh  
 2. Combine all the forward and all the reverse assembly segments using cat command then use fq2fa from IDBA_UD to convert .fastq output of trimming to fasta and merge forward and reverse reads  
 -combine_fq2fa.sh  
-3. Assemble each metagenome using IDBA_UD
--idba_assembly.sh
-4. Run assembled metagenomes through MetaQUAST to assess assembly quality
--metaquast.sh
-5. Annotate each metagenome with the Joint Genome Institute's IMG pipeline 
-7. Getting annotated metagenomic files off of IMG 
-8. Converting annotated metagenomes to .gff files with python before concatenating them
-gff_conversion.sh
-9. Concatenating .gff files to make one gigantic, metagenome ORF file
-10. Mapping mRNA reads back to concatenated metaG file using Kallisto
--kallisto.sh (in scripts/kallisto_scripts_and_logs folder)
+3. Assemble each metagenome using IDBA_UD  
+-idba_assembly.sh  
+4. Run assembled metagenomes through MetaQUAST to assess assembly quality  
+-metaquast.sh  
+5. Annotate each metagenome with the Joint Genome Institute's IMG pipeline   
+7. Getting annotated metagenomic files off of IMG  
+8. Converting annotated metagenomes to .gff files with python before concatenating them  
+gff_conversion.sh  
+9. Concatenating .gff files to make one gigantic, metagenome ORF file  
+10. Mapping mRNA reads back to concatenated metaG file using Kallisto  
+-kallisto.sh (in scripts/kallisto_scripts_and_logs folder)  
 
 ### Documentation for each program:
 1. Snakemake - https://snakemake.readthedocs.io/en/stable/  
@@ -753,7 +753,7 @@ contig-60.fa contig-80.fa contig-100.fa contig-120.fa contig.fa scaffold.fa --no
 
 ```
 
-###**It is very important to note that IDBA_UD automatically selects the best assembly by testing different kmer sizes up to, in this case, a kmer size of 120. The "contig.fa" file is the file that you must upload to JGI in the next step. It represents the best assembly that IDBA_UD could create given the parameters!**  
+### **It is very important to note that IDBA_UD automatically selects the best assembly by testing different kmer sizes up to, in this case, a kmer size of 120. The "contig.fa" file is the file that you must upload to JGI in the next step. It represents the best assembly that IDBA_UD could create given the parameters!**  
 
 
 ## **5. Annotate each metagenome with the Joint Genome Institute's IMG pipeline**
