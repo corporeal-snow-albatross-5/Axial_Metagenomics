@@ -1,0 +1,28 @@
+Now processing...FS891_RNA
+
+[quant] fragment length distribution is truncated gaussian with mean = 151, sd = 41
+[index] k-mer length: 31
+[index] number of targets: 8,165,484
+[index] number of k-mers: 1,745,479,594
+[index] number of equivalence classes: 19,513,697
+[quant] running in single-end mode
+[quant] will process file 1: FS891_RNA_trim_paired_merged_mRNA.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 8,496,100 reads, 3,053,496 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,225 rounds
+
+Now processing...FS903_30_12H_AAGACG_L001
+
+[quant] fragment length distribution is truncated gaussian with mean = 151, sd = 41
+[index] k-mer length: 31
+[index] number of targets: 8,165,484
+[index] number of k-mers: 1,745,479,594
+[index] number of equivalence classes: 19,513,697
+[quant] running in single-end mode
+[quant] will process file 1: FS903_30_12H_AAGACG_L001_trim_paired_merged_mRNA.fastq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 6,271,264 reads, 402,568 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 676 rounds
+
