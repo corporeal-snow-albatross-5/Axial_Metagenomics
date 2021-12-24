@@ -1,16 +1,23 @@
-# **Axial RNA-SIP Sample Processing: From Raw Reads to Mapping mRNA to Concatenated
-  Metagenome**
+# **Axial RNA-SIP Sample Processing: From Raw Reads to Mapping mRNA to Concatenated Metagenome**
+
+#### All scripts are located in the 'scripts' folder in this repo. Script name is under each step in the overview. 
 
 ### Overview:  
-1. Trim Samples with Trimmomatic and QC using FastQC and MultiQC using Sarah Hu's Snakemake pipeline
-2. Combine all the forward and all the reverse assembly segments using cat command then use fq2fa from IDBA_UD to convert .fastq output of trimming to fasta and merge forward and reverse reads
+1. Trim Samples with Trimmomatic and QC using FastQC and MultiQC using Sarah Hu's Snakemake pipeline  
+-qc_snakemake.sh  
+2. Combine all the forward and all the reverse assembly segments using cat command then use fq2fa from IDBA_UD to convert .fastq output of trimming to fasta and merge forward and reverse reads  
+-combine_fq2fa.sh  
 3. Assemble each metagenome using IDBA_UD
+-idba_assembly.sh
 4. Run assembled metagenomes through MetaQUAST to assess assembly quality
+-metaquast.sh
 5. Annotate each metagenome with the Joint Genome Institute's IMG pipeline 
-6. Getting annotated metagenomic files off of IMG 
-7. Converting annotated metagenomes to .gff files with python before concatenating them
-8. Concatenating .gff files to make one gigantic, metagenome ORF file
-9. Mapping mRNA reads back to concatenated metaG file using Kallisto
+7. Getting annotated metagenomic files off of IMG 
+8. Converting annotated metagenomes to .gff files with python before concatenating them
+gff_conversion.sh
+9. Concatenating .gff files to make one gigantic, metagenome ORF file
+10. Mapping mRNA reads back to concatenated metaG file using Kallisto
+-kallisto.sh (in scripts/kallisto_scripts_and_logs folder)
 
 ### Documentation for each program:
 1. Snakemake - https://snakemake.readthedocs.io/en/stable/  
