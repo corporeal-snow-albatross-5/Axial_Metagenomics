@@ -2,6 +2,7 @@
 Metagenomics pipeline for processing Axial Seamount diffuse fluid samples
 
 #### All scripts are located in the 'scripts' folder in this repo. Script name is under each step in the overview. 
+#### The file 'Axial_Metagenomics_Processing_Pipeline.md' in this repo provides the entire pipeline, with explanations of each step. 
 
 ### Overview:  
 1. Trim Samples with Trimmomatic and QC using FastQC and MultiQC using Sarah Hu's Snakemake pipeline  
@@ -36,4 +37,4 @@ Metagenomics pipeline for processing Axial Seamount diffuse fluid samples
 
 ### Raw files - all located in the sample_list file in this repo. Also see the output tree if you'd like to see all of the samples associated with Axial. The metadata folder also has some useful info about the samples.
 
-#### **Note: all of these programs were run on WHOI's cluster, Poseidon, so the code for that is included. Additionally, all programs were installed using Conda Environments** 
+#### All of these programs were run on WHOI's cluster, Poseidon, so the code for that is included. Additionally, all programs were installed using Conda Environments
