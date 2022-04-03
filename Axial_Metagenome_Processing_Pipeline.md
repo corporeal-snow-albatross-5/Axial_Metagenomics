@@ -786,6 +786,8 @@ FS908_Marker33_DNA	        Ga0456191
 FS914_Anemone_DNA	          Ga0456192  
 FS915_Marker113_DNA	        Ga0456193  
 FS917_Marker33_DNA	        Ga0454710  
+AnemonePlume_1500m_2015_DNA	Ga0493834
+
 
 
 ## **6. Getting annotated metagenomic files off of IMG**
