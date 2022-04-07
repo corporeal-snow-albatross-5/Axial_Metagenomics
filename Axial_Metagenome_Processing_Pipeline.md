@@ -18,6 +18,8 @@ gff_conversion.sh
 9. Concatenating .gff files to make one gigantic, metagenome ORF file  
 10. Mapping mRNA reads back to concatenated metaG file using Kallisto  
 -kallisto.sh (in scripts/kallisto_scripts_and_logs folder)  
+11. Combining Kallisto abundance.tsv files with concatenated metagenome ORF taxonomy and Kegg Ontology ID's to understand mRNA ORF 
+taxonomy and function
 
 ### Documentation for each program:
 1. Snakemake - https://snakemake.readthedocs.io/en/stable/  
@@ -1103,4 +1105,7 @@ All took ~15 hours and ~65gb to run!
 
 ```
 
-That is all of the progress I made so far. Will continue updating as I move through the pipeline. 
+## **Combining Kallisto abundance.tsv files with concatenated metagenome ORF taxonomy and Kegg Ontology ID's to understand mRNA ORF 
+taxonomy and function**
+```
+
